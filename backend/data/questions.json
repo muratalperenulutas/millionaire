@@ -1,0 +1,344 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "text": "When was Python created?",
+      "options": [
+        "A) 1991",
+        "B) 2000", 
+        "C) 1989", 
+        "D) 2010"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 1,
+      "text": "Which company developed JavaScript?",
+      "options": [
+        "A) Microsoft",
+        "B) Google",
+        "C) Netscape",
+        "D) Apple"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 2,
+      "text": "What does HTML stand for?",
+      "options": [
+        "A) Hyper Transfer Markup Language",
+        "B) Hyper Text Markup Language",
+        "C) High Tech Modern Language",
+        "D) Hyper Text Multiple Language"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "text": "What protocol is used for secure web browsing?",
+      "options": [
+        "A) HTTP",
+        "B) FTP",
+        "C) HTTPS",
+        "D) SMTP"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 4,
+      "text": "What is the primary function of a firewall?",
+      "options": [
+        "A) Speed up internet connection",
+        "B) Filter network traffic",
+        "C) Improve CPU performance",
+        "D) Store website data locally"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 5,
+      "text": "Which of these is NOT a programming paradigm?",
+      "options": [
+        "A) Object-Oriented",
+        "B) Functional",
+        "C) Procedural",
+        "D) Systematic"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "id": 6,
+      "text": "What does CPU stand for?",
+      "options": [
+        "A) Central Processing Unit",
+        "B) Computer Processing Unit",
+        "C) Central Program Utility",
+        "D) Core Processing Unit"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 7,
+      "text": "Which data structure operates on a LIFO principle?",
+      "options": [
+        "A) Queue",
+        "B) Stack",
+        "C) Linked List",
+        "D) Tree"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 8,
+      "text": "What is the purpose of DNS in networking?",
+      "options": [
+        "A) Securing data transmission",
+        "B) Translating domain names to IP addresses",
+        "C) Managing network bandwidth",
+        "D) Encrypting web traffic"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 9,
+      "text": "Which of these is an example of a NoSQL database?",
+      "options": [
+        "A) MySQL",
+        "B) PostgreSQL",
+        "C) MongoDB",
+        "D) Oracle"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 10,
+      "text": "What programming language is primarily used for iOS development?",
+      "options": [
+        "A) Java",
+        "B) C#",
+        "C) Swift",
+        "D) Python"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 11,
+      "text": "What does API stand for in programming?",
+      "options": [
+        "A) Application Programming Interface",
+        "B) Advanced Program Installation",
+        "C) Automated Programming Implementation",
+        "D) Application Process Integration"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 12,
+      "text": "Which of these is a version control system?",
+      "options": [
+        "A) Docker",
+        "B) Git",
+        "C) Kubernetes",
+        "D) Jenkins"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 13,
+      "text": "What is the main purpose of CSS in web development?",
+      "options": [
+        "A) To create interactive elements",
+        "B) To define the structure of web pages",
+        "C) To style the visual presentation of web pages",
+        "D) To handle server-side logic"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 14,
+      "text": "Which protocol is used for sending emails?",
+      "options": [
+        "A) HTTP",
+        "B) FTP",
+        "C) SMTP",
+        "D) SSH"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 15,
+      "text": "What is the primary purpose of an operating system?",
+      "options": [
+        "A) Run applications",
+        "B) Manage hardware resources",
+        "C) Connect to the internet",
+        "D) Edit documents"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 16,
+      "text": "Which sorting algorithm has an average time complexity of O(n log n)?",
+      "options": [
+        "A) Bubble Sort",
+        "B) Selection Sort",
+        "C) Quick Sort",
+        "D) Insertion Sort"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 17,
+      "text": "What is the main advantage of cloud computing?",
+      "options": [
+        "A) Unlimited storage",
+        "B) Scalability and flexibility",
+        "C) Complete security",
+        "D) No maintenance required"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 18,
+      "text": "Which of these is NOT a popular JavaScript framework?",
+      "options": [
+        "A) React",
+        "B) Angular",
+        "C) Django",
+        "D) Vue"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 19,
+      "text": "What does SSL stand for in web security?",
+      "options": [
+        "A) Secure Socket Layer",
+        "B) System Security Login",
+        "C) Server Side Language",
+        "D) Safe System Link"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 20,
+      "text": "Which of these is a relational database management system?",
+      "options": [
+        "A) Redis",
+        "B) Cassandra",
+        "C) PostgreSQL",
+        "D) MongoDB"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 21,
+      "text": "What is the primary function of RAM in a computer?",
+      "options": [
+        "A) Permanent data storage",
+        "B) Temporary data storage while the computer is running",
+        "C) Increase internet speed",
+        "D) Improve graphics processing"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 22,
+      "text": "Which programming concept involves hiding internal details and showing only functionality?",
+      "options": [
+        "A) Inheritance",
+        "B) Polymorphism",
+        "C) Encapsulation",
+        "D) Abstraction"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 23,
+      "text": "What is a common use of a RESTful API?",
+      "options": [
+        "A) Database indexing",
+        "B) Network security",
+        "C) Web service integration",
+        "D) Hardware acceleration"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 24,
+      "text": "Which technology is primarily used for containerization?",
+      "options": [
+        "A) Docker",
+        "B) Apache",
+        "C) Node.js",
+        "D) Ruby on Rails"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "id": 25,
+      "text": "What is the purpose of a load balancer in web architecture?",
+      "options": [
+        "A) Increase database speed",
+        "B) Distribute network traffic across multiple servers",
+        "C) Optimize client-side JavaScript",
+        "D) Encrypt sensitive data"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 26,
+      "text": "Which of these is NOT a common cybersecurity threat?",
+      "options": [
+        "A) Phishing",
+        "B) SQL injection",
+        "C) Domain parsing",
+        "D) Man-in-the-middle attack"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 27,
+      "text": "What is the primary function of an IDE?",
+      "options": [
+        "A) Design graphical interfaces",
+        "B) Provide tools for software development",
+        "C) Run virtual machines",
+        "D) Test network security"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "id": 28,
+      "text": "Which of these is a type of machine learning?",
+      "options": [
+        "A) Network protocol",
+        "B) File compression algorithm",
+        "C) Deep reinforcement learning",
+        "D) Database indexing"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "id": 29,
+      "text": "What is the purpose of a CDN (Content Delivery Network)?",
+      "options": [
+        "A) Store user credentials securely",
+        "B) Cache content closer to users for faster delivery",
+        "C) Connect to multiple databases simultaneously",
+        "D) Create dynamic website content"
+      ],
+      "correct_answer": "B"
+    }
+  ],
+  "prizes": [
+    "Loading the Lynch...",
+    "The important thing is to join",
+    "Two is greater than one",
+    "It wasn't easy getting here",
+    "You know your stuff!",
+    "You're amazing!",
+    "Almost at the top!",
+    "Congratulations!"
+  ]
+}
