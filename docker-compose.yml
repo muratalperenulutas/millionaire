@@ -1,32 +1,33 @@
-version: '3'
-
 services:
   backend:
     build: .
+    working_dir: /app/backend
     restart: unless-stopped
     volumes:
-      - ./backend/data:/app/backend/data
+      - ./backend:/app/backend
     
   adapter:
-    image: node:18
+    image: node:22
     working_dir: /app
-    command: node adapter.js
+    command: sh -c "npm install && node src/adapter/adapter.js"
     volumes:
-      - ./frontend/src/adapter:/app
+      - ./frontend:/app
     environment:
       - GAME_SERVER_HOST=backend
     depends_on:
       - backend
+    ports:
+      - "3001:3001"
     restart: unless-stopped
 
   frontend:
-    image: node:18
+    image: node:22
     working_dir: /app
-    command: sh -c "npm install && npm run dev"
+    command: sh -c "npm run dev"
     volumes:
       - ./frontend:/app
     environment:
-      - NEXT_PUBLIC_ADAPTER_URL=http://adapter:3001
+      - NEXT_PUBLIC_ADAPTER_URL=http://localhost:3001
     ports:
       - "3000:3000"
     depends_on:

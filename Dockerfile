@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 RUN apt-get update && apt-get install -y \
     build-essential \
@@ -22,4 +22,4 @@ RUN cd /app && ./build.sh
 
 EXPOSE 4337
 
-CMD ["/bin/bash", "-c", "cd /app && ./backend/host/game_host & ./backend/joker/joker_service"]
+CMD ["/bin/bash", "-c", "cd /app/backend/host && ./game_host & cd /app/backend/joker && ./joker_service"]
